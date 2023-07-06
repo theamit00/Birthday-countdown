@@ -5,7 +5,7 @@ const minute = document.querySelector('#mins');
 const second = document.querySelector('#sec');
 const monthNames = ['january', 'february', 'march', 'april', 'may', 'june', 'july'];
 
-const targetDate = new Date("july 06, 2023 00:00:00");
+const targetDate = new Date("july 06, 2024 00:00:00");
 const targetMonth = monthNames[targetDate.getMonth()];
 const name = document.querySelector('#name');
 
